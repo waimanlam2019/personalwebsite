@@ -7,7 +7,7 @@ export default function Demo() {
 
 <p>This particular website was built with Jekyll ( A static website engine written with Ruby ) loaded with minimalist style template. I tried to create an exact same website with React. I inspected the html elements and css with by the Jekyll website and tried to mimic it. It is hosted on Vercel.</p>
 
-<p><a href="https://personalwebsite-gamma-nine.vercel.app/">Link</a>
+<p><a href="https://personalwebsite-gamma-nine.vercel.app/">Link</a><br/>
  <a href="https://github.com/waimanlam2019/personalwebsite">Source</a></p>
 
 <ul>

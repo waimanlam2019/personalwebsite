@@ -4,10 +4,9 @@ export default function Header({ setActiveContent }) {
       <div class='wrapper flex-hori'>
         <span id='siteTitle'>Ray Lam - Software Engineer</span>
         <div class="flex-hori">
-            <a class="navUrl" onClick={() => setActiveContent('home')}>Home</a>
-            <a class="navUrl" onClick={() => setActiveContent('resume')}>Resume</a>
-            <a class="navUrl" href="/">Blog</a>
-            <a class="navUrl" onClick={() => setActiveContent('demo')}>Demo</a>
+            <button class="navUrl" onClick={() => setActiveContent('home')}>Home</button>
+            <button class="navUrl" onClick={() => setActiveContent('resume')}>Resume</button>
+            <button class="navUrl" onClick={() => setActiveContent('demo')}>Demo</button>
         </div>
       </div>
     </div>
